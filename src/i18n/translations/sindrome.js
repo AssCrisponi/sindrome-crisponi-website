@@ -1,0 +1,46 @@
+export const sindrome = {
+  it: {
+    sindromeTitle: 'La Sindrome di Crisponi',
+    sindromeParagraphs: [
+      'Un visino rotondo e con guance paffute, naso marcato e lunghissime folte ciglia incorniciano vispi occhioni. L’incantesimo dei piccoli affetti da Sindrome di Crisponi si spezza sin dalla nascita sfiorando la pelle del piccolo o nel piangere. Le crisi simil-tetaniformi, si manifestano subito con marcate contrazioni del volto e della gola, cianosi e crisi respiratorie, irrigidimento degli arti, abbondante salivazione e febbre.',
+      'Il tipico pianto soffocato, si associa all’assenza dell’istinto di suzione. La poppata dei piccoli infatti, si svolge con il sondino naso-gastrico o con la PEG (sonda applicata nello stomaco).',
+      'Intolleranza al calore, grave difetto di termoregolazione e crisi febbrili si manifestano entro poche settimane dalla nascita. La temperatura corporea intorno ai 38°, si accompagna a picchi in grado raggiungere i 42 (la morte sopraggiunge durante questi episodi).',
+      'Le difficoltà di termoregolazione sono in alcuni casi gravissime, si scatenano quando l’ambiente non ha una temperatura idonea, degenerando in crisi che mettono in serio pericolo la sopravvivenza dei bimbi e limitando la normale possibilità di spostamento all’esterno.',
+      'Presto si presentano gravi problemi alla colonna vertebrale, immobilizzazione delle articolazioni delle dita delle mani (camptodattilia), grave reflusso gastroesofageo e problemi alla cornea.',
+      'Nell’adolescenza l’esposizione agli ambienti freddi scatena crisi incontrollabili di freddo e profusa sudorazione paradossa, fino al coinvolgimento in età adulta del sistema endocrino.',
+    ],
+    sindromeEpidemiologyTitle: 'Dati epidemiologici e storia',
+    sindromeEpidemiologyParagraphs: [
+      'I dati epidemiologici evidenziano la concentrazione di questa patologia in Sardegna. La Sindrome viene descritta per la prima volta nel 1996 dal Dott. G. Crisponi, dal quale prenderà il nome. Ad oggi sono stati segnalati nell’isola 31 casi di cui solo 11 ancora in vita.',
+      'Nel 2007 il gruppo di ricerca guidato dalla Dott.ssa L. Crisponi del IRGB (ex INN) CNR, identifica il gene CRLF1 implicato nella sindrome, scoprendo che i bimbi nascono da 2 portatori sani.',
+      'Dopo la scoperta, oggi è possibile fare diagnosi prenatale e prevenzione. Attualmente non esistono farmaci per alleviare tutti i sintomi.',
+      'Le crisi di temperatura vengono ancora gestite meccanicamente immergendo i pazienti in acqua fredda per controllare le crisi febbrili.',
+      'Tuttavia oggi, grazie anche alle ricerche finanziate dall’associazione, è disponibile un trattamento per aiutare la gestione delle crisi di freddo e sudorazione paradossa.',
+      'Anche se come per la maggior parte delle patologie rare la normativa di tutela è scarsa e poco applicata, oggi finalmente esiste un codice sanitario di riferimento RNG020.',
+      'Nonostante questo molte delle spese di gestione del problema sono a carico delle famiglie. I ritardi diagnostici sono spesso conseguenza dei numeri molto elevati di patologie rare che rendono l’informazione per i medici complessa.',
+    ],
+    sindromeUpdated: 'Aggiornamento: giugno 2026',
+  },
+  en: {
+    sindromeTitle: 'Crisponi Syndrome',
+    sindromeParagraphs: [
+      'A round little face with chubby cheeks, a pronounced nose and long, thick eyelashes frame bright, lively eyes. The spell is broken from birth for children affected by Crisponi Syndrome, the moment their skin is touched or they cry. Tetanus-like crises appear immediately, with marked contractions of the face and throat, cyanosis and respiratory crises, stiffening of the limbs, excessive salivation and fever.',
+      'The typical muffled cry is accompanied by the absence of the sucking reflex. Feeding is therefore carried out using a naso-gastric tube or a PEG (a tube applied directly to the stomach).',
+      'Heat intolerance, a severe thermoregulation defect and feverish crises appear within a few weeks of birth. Body temperature hovers around 38°C, with peaks that can reach 42°C (death can occur during these episodes).',
+      'In some cases the thermoregulation difficulties are extremely severe: they are triggered whenever the surrounding temperature is not suitable, escalating into crises that seriously endanger the children’s survival and severely limit their ability to go outdoors.',
+      'Serious spinal problems soon appear, along with immobilization of the finger joints (camptodactyly), severe gastroesophageal reflux and corneal problems.',
+      'In adolescence, exposure to cold environments triggers uncontrollable cold crises and profuse paradoxical sweating, extending to involvement of the endocrine system in adulthood.',
+    ],
+    sindromeEpidemiologyTitle: 'Epidemiological data and history',
+    sindromeEpidemiologyParagraphs: [
+      'Epidemiological data show that this condition is concentrated in Sardinia. The syndrome was first described in 1996 by Dr. G. Crisponi, after whom it is named. To date, 31 cases have been reported on the island, of which only 11 patients are still alive.',
+      'In 2007, the research group led by Dr. L. Crisponi at IRGB-CNR (formerly INN) identified the CRLF1 gene involved in the syndrome, discovering that affected children are born to two healthy carrier parents.',
+      'Following this discovery, prenatal diagnosis and prevention are now possible. Currently, there are no medications able to relieve all of the symptoms.',
+      'Temperature crises are still managed mechanically, by immersing patients in cold water to control febrile episodes.',
+      'However, today, thanks in part to research funded by the association, a treatment is available to help manage cold crises and paradoxical sweating.',
+      'Although, as with most rare diseases, protective regulation is scarce and poorly enforced, a dedicated healthcare reference code, RNG020, now finally exists.',
+      'Despite this, many of the costs of managing the condition still fall on the families. Diagnostic delays are often the result of the very high number of rare diseases, which makes it difficult for doctors to stay informed about all of them.',
+    ],
+    sindromeUpdated: 'Updated: June 2026',
+  },
+};

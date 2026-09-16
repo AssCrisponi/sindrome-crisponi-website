@@ -1,0 +1,41 @@
+.rounded-button{
+    background: linear-gradient(to top right, #f6b906, #f18724);
+    height: unset;
+    width: 120px;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 35px;
+}
+
+.lable-button {
+    background: linear-gradient(to top right, #f18724, #f6b906);
+    height: unset;
+    width: 450px;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 35px;
+}
+
+@media (max-width: 600px) {
+  .rounded-button,
+  .lable-button {
+    padding: 14px;
+    font-size: 14px;
+  }
+}

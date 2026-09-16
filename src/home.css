@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.box {
+  margin: 40px;
+  border: 5px black;
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.box_content {
+  font-size: 16px;
+  text-align: justify;
+  margin: 50px 50px 50px 50px;
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 600px;
+}
+
+.img_content {
+  object-fit: scale-down;
+  margin: 50px 50px 50px 50px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .box,
+  .box_content {
+    width: calc(100% - 40px);
+    margin: 20px;
+  }
+}

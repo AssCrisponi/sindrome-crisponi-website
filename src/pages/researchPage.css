@@ -1,0 +1,57 @@
+.research-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 20px 60px;
+}
+
+.research-back {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #f18724;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.research-back:hover {
+  text-decoration: underline;
+}
+
+.research-intro {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.research-category h2 {
+  border-bottom: 2px solid #f6b906;
+  padding-bottom: 8px;
+  margin-top: 40px;
+}
+
+.research-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.research-item {
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.research-item a {
+  color: #1a1a1a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.research-item a:hover {
+  color: #f18724;
+  text-decoration: underline;
+}
+
+.research-meta {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #666;
+}
