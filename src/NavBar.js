@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './NavBar.css';
 import './components/button.css';
 import NavButton from './components/NavButton';
@@ -10,26 +10,43 @@ import { useNavigate } from 'react-router-dom';
 const NavBar = () => {
     const { language, setLanguage, t } = useLanguage();
     const navigate = useNavigate();
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const handleClickAssociazione = () => {
+        setIsMenuOpen(false);
         navigate('/associazione');
       };
     const handleClickSindrome = () => {
+        setIsMenuOpen(false);
         navigate('/sindrome');
       };
     const handleClickRicerca = () => {
+        setIsMenuOpen(false);
         navigate('/ricerca');
       };
     const handleClickChiSiamo = () => {
+        setIsMenuOpen(false);
         navigate('/chi-siamo');
       };
 
   return (
     <>
     <nav className="navbar">
-    <div>
+    <div className="navbar-top">
     <img src={logo_scontornato} className="navbar-logo" alt="logo" />
+    <button
+        type="button"
+        className={`navbar-toggle ${isMenuOpen ? 'open' : ''}`}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+        aria-label={isMenuOpen ? 'Chiudi menu' : 'Apri menu'}
+        aria-expanded={isMenuOpen}
+    >
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
     </div>
+    <div className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
     <NavButton  onClick={handleClickAssociazione} className='lable-button'>
        {t.navLabel}
     </NavButton>
@@ -67,6 +84,7 @@ const NavBar = () => {
         >
             🇬🇧
         </button>
+    </div>
     </div>
     </nav>
     </>
