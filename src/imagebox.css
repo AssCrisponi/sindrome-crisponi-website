@@ -7,6 +7,8 @@
 
 .img_content .each-slide-effect {
   width: 100%;
+  box-sizing: border-box;
+  padding: 0 16px;
 }
 
 .img_content img {
@@ -15,11 +17,15 @@
   background-color: #fff;
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1001 / 707;
 }
 
 @media (max-width: 900px) {
   .img_content {
     margin: 20px auto;
+  }
+
+  .img_content .each-slide-effect {
+    padding: 0 8px;
   }
 }
