@@ -13,6 +13,7 @@ const AltrePubblicazioniPage = () => {
   return (
     <>
       <h2>{t.altrePubblicazioniTitle}</h2>
+      <p>{t.altrePubblicazioniIntro}</p>
       <ImageGallery images={activeFiles} emptyMessage={t.altrePubblicazioniPlaceholder} />
     </>
   );

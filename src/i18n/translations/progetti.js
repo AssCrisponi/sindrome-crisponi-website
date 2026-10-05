@@ -1,5 +1,9 @@
 import geneResearchImage from '../../img_originals/pr_realizzati_84000_2006_07.jpg';
 import assegnoRobertaPirasLauraImage from '../../img_originals/assegno_roberta_piras_laura.jpg';
+import domoticaPiscinaNemoImage from '../../img_originals/domotica_piscina_nemo_2009.jpeg';
+import macchinariCnrImage from '../../img_originals/machinari_cnr_2009.jpeg';
+import pediatriaDisabilitaMicrocitemicoImage from '../../img_originals/pediatria_disabilita_microcitemico_2010.jpeg';
+import indagineNeurofisiopatologicaImage from '../../img_originals/indagine_neurofisiopatologica_2008.jpeg';
 
 export const progetti = {
   it: {
@@ -11,14 +15,19 @@ export const progetti = {
         images: [{ src: geneResearchImage, alt: 'Ricerca sul gene CRLF1' }],
       },
       {
+        title: '2008',
+        description: 'Indagine neurofisiopatologica, Ferrara.',
+        images: [{ src: indagineNeurofisiopatologicaImage, alt: 'Indagine neurofisiopatologica, Ferrara' }],
+      },
+      {
         title: '2008-2009',
         description: 'Borsa di studio pediatrica per le malattie rare presso il Centro Malattie Rare Microcitemico.',
-        images: [],
+        images: [{ src: pediatriaDisabilitaMicrocitemicoImage, alt: 'Borsa di studio pediatrica, Centro Malattie Rare Microcitemico' }],
       },
       {
         title: '2009-2010',
         description: 'Acquisto di macchinari di ricerca per le malattie genetiche rare, IRGB-CNR (ex INN), Monserrato.',
-        images: [],
+        images: [{ src: macchinariCnrImage, alt: 'Macchinari di ricerca, IRGB-CNR Monserrato' }],
       },
       {
         title: '2010-2013',
@@ -30,7 +39,7 @@ export const progetti = {
         title: '2010-2013',
         description:
           'Ricerca e Supporto: dotazione alle famiglie delle strumentazioni domotiche necessarie dal momento della nascita e per la scolarizzazione.',
-        images: [],
+        images: [{ src: domoticaPiscinaNemoImage, alt: 'Domotica - Piscina Nemo' }],
       },
       {
         title: '2010-2013',

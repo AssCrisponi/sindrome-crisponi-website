@@ -10,4 +10,5 @@
 export const altrePubblicazioniManifest = [
     { file: 'piga_copertina.jpg', active: true, alt: 'Piga - Copertina' },
     { file: 'tesi_dottorato_pediatria_blu.jpg', active: true, alt: 'La Torraca - Copertina' },
+    { file: 'tesi_dentistica_piras_oddini.png', active: true, alt: 'Dentistica Crisponi Piras_Oddini- Copertina' },
 ];
