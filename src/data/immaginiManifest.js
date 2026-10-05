@@ -8,6 +8,7 @@ export const immaginiManifest = [
     { file: 'assegno_ras.png', active: true, alt: 'Erogazione Assegno Ras'},
     { file: 'marco_sarigu_macchinari.png', active: true, alt: 'Marco Sarigu consegna macchinari ricerca CNR Cagliari' },
     { file: 'tesi_dottorato_pediatria_blu.jpg', active: true, alt: 'Tesi Dottorato Pediatria Sindrome di Crisponi: Sudorazione paradossa'},
-    { file:'farfavolontari_2004_2014.jpg', active:true, alt:'farfavolontari 2004 - 2014'}
+    { file:'farfavolontari_2004_2014.jpg', active:true, alt:'farfavolontari 2004 - 2014'},
+    { file:'farfaskyassegno.jpg', active:true, alt:'farfasky banca delle palline di natale'}
     
 ];

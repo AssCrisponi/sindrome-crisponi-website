@@ -10,7 +10,13 @@ const ProjectCard = ({ title, description, images = [], variant = 'short' }) => 
         {images.length > 0 && (
           <div className="project-card-images">
             {images.map((image, index) => (
-              <img key={index} src={image.src} alt={image.alt || title} className="project-card-image" />
+              <img
+                key={index}
+                src={image.src}
+                alt={image.alt || title}
+                className="project-card-image"
+                loading="lazy"
+              />
             ))}
           </div>
         )}

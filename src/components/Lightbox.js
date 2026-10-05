@@ -3,7 +3,7 @@ import './lightbox.css';
 
 const Lightbox = ({ src, alt, onClose }) => (
   <div className="lightbox" onClick={onClose}>
-    <img src={src} alt={alt} className="lightbox-image" />
+    <img src={src} alt={alt} className="lightbox-image" loading="lazy" />
   </div>
 );
 

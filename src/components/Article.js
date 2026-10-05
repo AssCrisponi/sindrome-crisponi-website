@@ -4,7 +4,9 @@ import './article.css';
 const Article = ({ title, image, description, pdf }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const visual = image && <img src={image.src} alt={image.alt || title} className="article-card-image" />;
+  const visual = image && (
+    <img src={image.src} alt={image.alt || title} className="article-card-image" loading="lazy" />
+  );
 
   return (
     <article className="article-card">
@@ -33,7 +35,7 @@ const Article = ({ title, image, description, pdf }) => {
 
       {isExpanded && (
         <div className="article-lightbox" onClick={() => setIsExpanded(false)}>
-          <img src={image.src} alt={image.alt || title} className="article-lightbox-image" />
+          <img src={image.src} alt={image.alt || title} className="article-lightbox-image" loading="lazy" />
         </div>
       )}
     </article>

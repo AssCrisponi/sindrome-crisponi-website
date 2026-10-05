@@ -23,7 +23,7 @@ const EventiPage = () => {
         onClick={() => setIsMainImageExpanded(true)}
         aria-label={t.eventiTitle}
       >
-        <img src={eventiMainImage} alt={t.eventiTitle} className="eventi-main-image" />
+        <img src={eventiMainImage} alt={t.eventiTitle} className="eventi-main-image" loading="lazy" />
       </button>
       {isMainImageExpanded && (
         <Lightbox

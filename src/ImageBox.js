@@ -13,7 +13,7 @@ function ImageBox() {
         <Slide easing="ease" duration={4000} indicators arrows>
           {imageList.map((image, index) => (
             <div key={index} className="each-slide-effect">
-              <img src={image} alt={`Galleria immagine ${index + 1}`} />
+              <img src={image} alt={`Galleria immagine ${index + 1}`} loading="lazy" />
             </div>
           ))}
         </Slide>

@@ -1,4 +1,5 @@
 import geneResearchImage from '../../img_originals/pr_realizzati_84000_2006_07.jpg';
+import assegnoRobertaPirasLauraImage from '../../img_originals/assegno_roberta_piras_laura.jpg';
 
 export const progetti = {
   it: {
@@ -23,7 +24,7 @@ export const progetti = {
         title: '2010-2013',
         description:
           'Dottorato di ricerca triennale per lo screening delle malattie genetiche rare e della Sindrome di Crisponi. Università degli Studi di Cagliari e IRGB-CNR (ex INN).',
-        images: [],
+        images: [{ src: assegnoRobertaPirasLauraImage, alt: 'Assegno di ricerca - Roberta Piras' }],
       },
       {
         title: '2010-2013',

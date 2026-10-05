@@ -11,6 +11,9 @@ const NavBar = () => {
     const { language, setLanguage, t } = useLanguage();
     const navigate = useNavigate();
 
+    const handleClickHome = () => {
+        navigate('/');
+      };
     const handleClickAssociazione = () => {
         navigate('/associazione');
       };
@@ -28,7 +31,14 @@ const NavBar = () => {
     <>
     <nav className="navbar">
     <div>
-    <img src={logo_scontornato} className="navbar-logo" alt="logo" />
+    <img
+        src={logo_scontornato}
+        className="navbar-logo"
+        alt="logo"
+        loading="lazy"
+        onClick={handleClickHome}
+        style={{ cursor: 'pointer' }}
+    />
     </div>
     <NavButton  onClick={handleClickAssociazione} className='lable-button'>
        {t.navLabel}
