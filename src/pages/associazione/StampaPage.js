@@ -1,6 +1,11 @@
 import React from 'react';
 import { useLanguage } from '../../i18n/LanguageContext';
-import ArticlesList from '../../components/ArticlesList';
+import ImageGallery from '../../components/ImageGallery';
+import { resolveManifestImages } from '../../utils/resolveManifestImages';
+import { stampaManifest } from '../../data/stampaManifest';
+
+const stampaModules = require.context('../../img/stampa/', false, /\.(png|jpe?g|gif|svg|pdf)$/);
+const activeFiles = resolveManifestImages(stampaModules, stampaManifest);
 
 const StampaPage = () => {
   const { t } = useLanguage();
@@ -8,7 +13,7 @@ const StampaPage = () => {
   return (
     <>
       <h2>{t.stampaTitle}</h2>
-      {t.stampaArticles.length > 0 ? <ArticlesList articles={t.stampaArticles} /> : <p>{t.stampaPlaceholder}</p>}
+      <ImageGallery images={activeFiles} emptyMessage={t.stampaPlaceholder} />
     </>
   );
 };

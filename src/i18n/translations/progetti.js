@@ -37,6 +37,12 @@ export const progetti = {
           'Dottorato di ricerca triennale sulla disabilità nelle malattie pediatriche rare. Università Cattolica di Roma, presso il Policlinico Gemelli, Patologie Rare.',
         images: [],
       },
+        {
+        title: 'dal 2008 ancora in corso',
+        description:
+          'Incontri periodici dove i pazienti e le famiglie affette da Sindrome di Crisponi, medici e ricercatori si incontrano per confrontarsi sui nuovi progressi ed avere un follow-up medico. Gli incontri riuniscono le famiglie che provengono da tutta Italia.L’evoluzione di questo e di tutti gli altri progetti ha portato all’attivazione di un follow-up medico annuale per tutti i pazienti presso il Centro Malattie Rare del Policlinico Gemelli, guidato dal Dottor Zampino, rendendolo un centro medico di riferimento per la Sindrome di Crisponi.',
+        images: [],
+      },
     ],
   },
   en: {
