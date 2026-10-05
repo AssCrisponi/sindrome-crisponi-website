@@ -1,0 +1,81 @@
+.articles-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 20px;
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #eee;
+}
+
+.article-card-image-link {
+  display: block;
+  padding: 0;
+  border: none;
+  background: none;
+  border-radius: 10px;
+  transition: opacity 0.15s ease;
+}
+
+.article-card-image-link:hover,
+.article-card-image-link:focus-visible {
+  opacity: 0.8;
+}
+
+.article-card-image {
+  width: 220px;
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.article-lightbox {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.85);
+  cursor: zoom-out;
+  z-index: 1000;
+}
+
+.article-lightbox-image {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+.article-card-body {
+  width: 100%;
+}
+
+.article-card-title {
+  margin: 0;
+  text-align: left;
+  color: #f18724;
+}
+
+.article-card-description {
+  margin: 0 0 12px;
+}
+
+.article-card-pdf-link {
+  display: inline-block;
+  color: #f18724;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.article-card-pdf-link:hover {
+  text-decoration: underline;
+}

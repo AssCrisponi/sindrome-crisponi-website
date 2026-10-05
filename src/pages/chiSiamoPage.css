@@ -21,28 +21,6 @@
   text-decoration: underline;
 }
 
-.chisiamo-projects {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.chisiamo-project {
-  padding: 14px 0;
-  border-bottom: 1px solid #eee;
-}
-
-.chisiamo-project-period {
-  display: inline-block;
-  min-width: 100px;
-  font-weight: bold;
-  color: #f18724;
-}
-
-.chisiamo-project p {
-  margin: 6px 0 0;
-}
-
 @media (max-width: 900px) {
   .chisiamo-content {
     width: 92vw;

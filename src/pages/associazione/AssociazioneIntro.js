@@ -1,10 +1,6 @@
 import React from 'react';
-import { useLanguage } from '../../i18n/LanguageContext';
+import ChiSiamoContent from '../ChiSiamoContent';
 
-const AssociazioneIntro = () => {
-  const { t } = useLanguage();
-
-  return <p>{t.associazioneIntro}</p>;
-};
+const AssociazioneIntro = () => <ChiSiamoContent />;
 
 export default AssociazioneIntro;

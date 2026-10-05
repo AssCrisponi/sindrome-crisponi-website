@@ -35,6 +35,30 @@ const AssociazionePage = () => {
                 >
                   {t.associazioneNavEventi}
                 </NavLink>
+                <NavLink
+                  to="/associazione/stampa"
+                  className={({ isActive }) => `associazione-sidebar-link ${isActive ? 'active' : ''}`}
+                >
+                  {t.associazioneNavStampa}
+                </NavLink>
+                <NavLink
+                  to="/associazione/progetti"
+                  className={({ isActive }) => `associazione-sidebar-link ${isActive ? 'active' : ''}`}
+                >
+                  {t.associazioneNavProgetti}
+                </NavLink>
+                <NavLink
+                  to="/associazione/altre-pubblicazioni"
+                  className={({ isActive }) => `associazione-sidebar-link ${isActive ? 'active' : ''}`}
+                >
+                  {t.associazioneNavAltrePubblicazioni}
+                </NavLink>
+                <NavLink
+                  to="/associazione/immagini"
+                  className={({ isActive }) => `associazione-sidebar-link ${isActive ? 'active' : ''}`}
+                >
+                  {t.associazioneNavImmagini}
+                </NavLink>
               </nav>
 
               <div className="associazione-main">

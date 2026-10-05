@@ -3,7 +3,7 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import './imagebox.css';
 
-const images = require.context('./img/', true, /\.(png|jpe?g|gif|svg)$/);
+const images = require.context('./img/slideshow/', false, /\.(png|jpe?g|gif|svg)$/);
 const imageList = images.keys().map(image => images(image));
 
 function ImageBox() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink, Outlet } from 'react-router-dom';
 import Header from '../Header';
 import { useLanguage } from '../i18n/LanguageContext';
 import '../home.css';
@@ -20,18 +20,33 @@ const SindromePage = () => {
               {t.backToHome}
             </Link>
             <h1>{t.sindromeTitle}</h1>
-            {t.sindromeParagraphs.map((paragraph, index) => (
-              <article key={index}>
-                <p>{paragraph}</p>
-              </article>
-            ))}
-            <h2>{t.sindromeEpidemiologyTitle}</h2>
-            {t.sindromeEpidemiologyParagraphs.map((paragraph, index) => (
-              <article key={index}>
-                <p>{paragraph}</p>
-              </article>
-            ))}
-            <p className="sindrome-updated">{t.sindromeUpdated}</p>
+
+            <div className="sindrome-layout">
+              <nav className="sindrome-sidebar">
+                <NavLink
+                  to="/sindrome/diagnosi-e-gestione"
+                  className={({ isActive }) => `sindrome-sidebar-link ${isActive ? 'active' : ''}`}
+                >
+                  {t.sindromeDiagnosiButton}
+                </NavLink>
+                <NavLink
+                  to="/sindrome/scuola"
+                  className={({ isActive }) => `sindrome-sidebar-link ${isActive ? 'active' : ''}`}
+                >
+                  {t.sindromeScuolaButton}
+                </NavLink>
+                <NavLink
+                  to="/sindrome/centri-riferimento-contatti"
+                  className={({ isActive }) => `sindrome-sidebar-link ${isActive ? 'active' : ''}`}
+                >
+                  {t.sindromeCentriRiferimentoButton}
+                </NavLink>
+              </nav>
+
+              <div className="sindrome-main">
+                <Outlet />
+              </div>
+            </div>
           </div>
         </div>
       </div>
