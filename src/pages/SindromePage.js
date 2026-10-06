@@ -24,6 +24,30 @@ const SindromePage = () => {
             <div className="sindrome-layout">
               <nav className="sindrome-sidebar">
                 <NavLink
+                  to="/sindrome/la-scoperta-della-sindrome"
+                  className={({ isActive }) => `sindrome-sidebar-link ${isActive ? 'active' : ''}`}
+                >
+                  {t.sindromeScopertaButton}
+                </NavLink>
+                <NavLink
+                  to="/sindrome/giangiorgio-crisponi"
+                  className={({ isActive }) => `sindrome-sidebar-link ${isActive ? 'active' : ''}`}
+                >
+                  {t.sindromeGiangiorgioCrisponiButton}
+                </NavLink>
+                <NavLink
+                  to="/sindrome/laura-crisponi"
+                  className={({ isActive }) => `sindrome-sidebar-link ${isActive ? 'active' : ''}`}
+                >
+                  {t.sindromeLauraCrisponiButton}
+                </NavLink>
+                <NavLink
+                  to="/sindrome/giuseppe-zampino"
+                  className={({ isActive }) => `sindrome-sidebar-link ${isActive ? 'active' : ''}`}
+                >
+                  {t.sindromeGiuseppeZampinoButton}
+                </NavLink>
+                <NavLink
                   to="/sindrome/diagnosi-e-gestione"
                   className={({ isActive }) => `sindrome-sidebar-link ${isActive ? 'active' : ''}`}
                 >
@@ -34,6 +58,12 @@ const SindromePage = () => {
                   className={({ isActive }) => `sindrome-sidebar-link ${isActive ? 'active' : ''}`}
                 >
                   {t.sindromeScuolaButton}
+                </NavLink>
+                <NavLink
+                  to="/sindrome/lavoro"
+                  className={({ isActive }) => `sindrome-sidebar-link ${isActive ? 'active' : ''}`}
+                >
+                  {t.sindromeLavoroButton}
                 </NavLink>
                 <NavLink
                   to="/sindrome/centri-riferimento-contatti"

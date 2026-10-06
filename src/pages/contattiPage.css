@@ -1,0 +1,50 @@
+.contatti-container {
+  width: 100%;
+}
+
+.contatti-content {
+  width: 75vw;
+  max-width: 75vw;
+  margin: 50px auto;
+  text-align: justify;
+}
+
+.contatti-back {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #f18724;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contatti-back:hover {
+  text-decoration: underline;
+}
+
+.contatti-section {
+  margin-top: 30px;
+}
+
+.contatti-medico-card {
+  padding: 16px;
+  border-radius: 10px;
+  background: #f4f4f4;
+  margin-bottom: 16px;
+}
+
+.contatti-medico-name {
+  margin: 0 0 4px;
+  color: #f18724;
+}
+
+.contatti-medico-meta {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .contatti-content {
+    width: 92vw;
+    max-width: 92vw;
+    margin: 25px auto;
+  }
+}

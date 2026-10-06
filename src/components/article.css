@@ -29,7 +29,7 @@
 }
 
 .article-card-image {
-  width: 220px;
+  width: 480px;
   max-width: 100%;
   border-radius: 10px;
   object-fit: contain;
@@ -46,6 +46,7 @@
   background: rgba(0, 0, 0, 0.85);
   cursor: zoom-out;
   z-index: 1000;
+  overflow: auto;
 }
 
 .article-lightbox-image {
@@ -53,6 +54,16 @@
   max-height: 90vh;
   border-radius: 6px;
   object-fit: contain;
+  cursor: zoom-in;
+  transition: max-width 0.2s ease, max-height 0.2s ease;
+}
+
+.article-lightbox-image.zoomed {
+  max-width: none;
+  max-height: none;
+  width: auto;
+  height: auto;
+  cursor: zoom-out;
 }
 
 .article-card-body {
@@ -63,6 +74,15 @@
   margin: 0;
   text-align: left;
   color: #f18724;
+}
+
+.article-card-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.article-card-title-link:hover {
+  text-decoration: underline;
 }
 
 .article-card-description {

@@ -12,6 +12,14 @@ export const researchCategories = [
       },
       {
         title:
+          'Crisponi Syndrome Is Caused by Mutations in the CRLF1 Gene and Is Allelic to Cold-Induced Sweating Syndrome Type 1',
+        authors: 'Crisponi L., Crisponi G., Meloni A. et al.',
+        year: 2007,
+        journal: 'American Journal of Human Genetics, 80(5):971-981',
+        url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC1852730',
+      },
+      {
+        title:
           'Mutations in Cytokine Receptor-Like Factor 1 (CRLF1) Account for Both Crisponi and Cold-Induced Sweating Syndromes',
         authors: 'Dagoneau N. et al.',
         year: 2007,

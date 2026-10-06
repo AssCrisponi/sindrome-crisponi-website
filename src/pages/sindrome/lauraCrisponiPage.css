@@ -1,0 +1,17 @@
+.laura-crisponi-award-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  transition: opacity 0.15s ease;
+}
+
+.laura-crisponi-award-link:hover,
+.laura-crisponi-award-link:focus-visible {
+  opacity: 0.8;
+}
+
+.laura-crisponi-award-image {
+  width: 280px;
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}

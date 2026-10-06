@@ -32,6 +32,17 @@
     border-radius: 35px;
 }
 
+.lable-button-line {
+    display: block;
+}
+
+.lable-button-subtitle {
+    display: block;
+    text-align: center;
+    font-size: 0.85em;
+    font-weight: normal;
+}
+
 @media (max-width: 600px) {
   .rounded-button,
   .lable-button {

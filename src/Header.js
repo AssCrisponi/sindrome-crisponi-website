@@ -10,6 +10,7 @@ const Header = () => {
     <>
       <div className="site-banner">{t.siteUpdateBanner}</div>
       <NavBar />
+      <div className="site-banner">{t.siteUpdateBanner}</div>
     </>
   );
 };

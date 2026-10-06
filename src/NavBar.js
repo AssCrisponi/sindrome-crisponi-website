@@ -2,7 +2,7 @@ import React from 'react';
 import './NavBar.css';
 import './components/button.css';
 import NavButton from './components/NavButton';
-import logo_scontornato from '../src/out/logo_scontornato.png';
+import logo_scontornato from '../src/img/logo/logo_scontornato.png';
 import { useLanguage } from './i18n/LanguageContext';
 import { useNavigate } from 'react-router-dom';
 
@@ -23,8 +23,11 @@ const NavBar = () => {
     const handleClickRicerca = () => {
         navigate('/ricerca');
       };
-    const handleClickChiSiamo = () => {
-        navigate('/chi-siamo');
+    const handleClickContatti = () => {
+        navigate('/contatti');
+      };
+    const handleClickBlogs = () => {
+        navigate('/blogs');
       };
 
   return (
@@ -41,7 +44,8 @@ const NavBar = () => {
     />
     </div>
     <NavButton  onClick={handleClickAssociazione} className='lable-button'>
-       {t.navLabel}
+       <span className="lable-button-line">{t.navLabel}</span>
+       <span className="lable-button-subtitle">{t.navLabelSubtitle}</span>
     </NavButton>
     <div >
     <NavButton  onClick={handleClickSindrome} className='rounded-button'>
@@ -54,8 +58,13 @@ const NavBar = () => {
     </NavButton>
     </div>
     <div>
-    <NavButton onClick={handleClickChiSiamo} className='rounded-button'>
-        {t.navChiSiamo}
+    <NavButton onClick={handleClickContatti} className='rounded-button'>
+        {t.navContatti}
+    </NavButton>
+    </div>
+    <div>
+    <NavButton onClick={handleClickBlogs} className='rounded-button'>
+        {t.navBlogs}
     </NavButton>
     </div>
     <div className="lang-switch">
