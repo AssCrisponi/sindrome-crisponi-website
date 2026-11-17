@@ -3,12 +3,14 @@
 // 2. aggiungi una riga qui sotto con lo stesso nome file e active: true
 // 3. se l'immagine e il pdf sono lo stesso articolo, danne lo stesso nome base
 //    (es. foo.jpg + foo.pdf) oppure collega esplicitamente con pdf: 'foo.pdf'
+// 4. aggiungi section: 'tesiDiLaurea' per metterlo nella sottosezione Tesi di Laurea
 //
 // { file: 'esempio.jpg', active: true, alt: 'Descrizione' },
 // { file: 'esempio.pdf', active: true, alt: 'Descrizione' },
 
 export const altrePubblicazioniManifest = [
     { file: 'piga_copertina.jpg', active: true, alt: 'Piga - Copertina' },
-    { file: 'tesi_dottorato_pediatria_blu.jpg', active: true, alt: 'La Torraca - Copertina' },
-    { file: 'tesi_dentistica_piras_oddini.png', active: true, alt: 'Dentistica Crisponi Piras_Oddini- Copertina' },
+    { file: 'tesi_ale_copertina.jpg', active: true, alt: 'Tesi Ale - Copertina', section: 'tesiDiLaurea' },
+    { file: 'tesi_dottorato_pediatria_blu.jpg', active: true, alt: 'La Torraca - Copertina', section: 'tesiDiLaurea' },
+    { file: 'tesi_dentistica_piras_oddini.png', active: true, alt: 'Dentistica Crisponi Piras_Oddini- Copertina', section: 'tesiDiLaurea' },
 ];

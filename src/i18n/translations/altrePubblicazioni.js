@@ -3,10 +3,12 @@ export const altrePubblicazioni = {
     altrePubblicazioniIntro:
       'Le pubblicazioni possono essere richieste inviando un\'email a presidente@sindromedicrisponi.it.',
     altrePubblicazioniArticles: [],
+    altrePubblicazioniTesiDiLaureaTitle: 'Tesi di Laurea',
   },
   en: {
     altrePubblicazioniIntro:
       'The publications can be requested by sending an email to presidente@sindromedicrisponi.it.',
     altrePubblicazioniArticles: [],
+    altrePubblicazioniTesiDiLaureaTitle: 'Thesis',
   },
 };

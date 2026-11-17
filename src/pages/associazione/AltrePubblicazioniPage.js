@@ -7,6 +7,9 @@ import { altrePubblicazioniManifest } from '../../data/altrePubblicazioniManifes
 const altrePubblicazioniModules = require.context('../../img/altre_publicazioni/', false, /\.(png|jpe?g|gif|svg|pdf)$/);
 const activeFiles = resolveManifestImages(altrePubblicazioniModules, altrePubblicazioniManifest);
 
+const generalFiles = activeFiles.filter((file) => file.section !== 'tesiDiLaurea');
+const tesiDiLaureaFiles = activeFiles.filter((file) => file.section === 'tesiDiLaurea');
+
 const AltrePubblicazioniPage = () => {
   const { t } = useLanguage();
 
@@ -14,7 +17,21 @@ const AltrePubblicazioniPage = () => {
     <>
       <h2>{t.altrePubblicazioniTitle}</h2>
       <p>{t.altrePubblicazioniIntro}</p>
-      <ImageGallery images={activeFiles} emptyMessage={t.altrePubblicazioniPlaceholder} />
+
+      {activeFiles.length === 0 ? (
+        <p>{t.altrePubblicazioniPlaceholder}</p>
+      ) : (
+        <>
+          {generalFiles.length > 0 && <ImageGallery images={generalFiles} />}
+
+          {tesiDiLaureaFiles.length > 0 && (
+            <>
+              <h3>{t.altrePubblicazioniTesiDiLaureaTitle}</h3>
+              <ImageGallery images={tesiDiLaureaFiles} />
+            </>
+          )}
+        </>
+      )}
     </>
   );
 };
