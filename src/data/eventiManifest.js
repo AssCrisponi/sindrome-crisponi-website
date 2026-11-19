@@ -1,5 +1,5 @@
 // Per mostrare un'immagine nella galleria della pagina Eventi:
-// 1. aggiungi il file in src/eventi_page/
+// 1. aggiungi il file in src/features/associazione/assets/eventi/
 // 2. aggiungi una riga qui sotto con lo stesso nome file e active: true
 //
 // { file: 'esempio.jpg', active: true, alt: 'Descrizione immagine' },

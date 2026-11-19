@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../../i18n/LanguageContext';
 import Article from '../../components/Article';
-import diarioFarfaGraziaImage from '../../img_originals/diario_farfagrazia_2012.jpg';
+import diarioFarfaGraziaImage from '../../features/blogs/assets/diario_farfagrazia_2012.jpg';
 
 const DiarioFarfaGraziaPage = () => {
   const { t } = useLanguage();

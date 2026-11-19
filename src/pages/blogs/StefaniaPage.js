@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../../i18n/LanguageContext';
 import Article from '../../components/Article';
-import stefaniaLaureaImage from '../../img_originals/stefania_laurea_oltre_ostacolo_2025.jpeg';
+import stefaniaLaureaImage from '../../features/blogs/assets/stefania_laurea_oltre_ostacolo_2025.jpeg';
 
 const StefaniaPage = () => {
   const { t } = useLanguage();

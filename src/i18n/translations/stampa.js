@@ -1,5 +1,5 @@
-import scopertaGenePdf from '../../img_originals/Scoperta Gene  A_Mameli Unione Sarda_ 8 Marzo 2007.pdf';
-import scopertaGeneThumb from '../../img/stampa/scoperta-gene-unione-sarda-2007.jpg';
+import scopertaGenePdf from '../../features/associazione/assets/stampa/Scoperta Gene  A_Mameli Unione Sarda_ 8 Marzo 2007.pdf';
+import scopertaGeneThumb from '../../features/associazione/assets/stampa/scoperta-gene-unione-sarda-2007.jpg';
 
 export const stampa = {
   it: {
