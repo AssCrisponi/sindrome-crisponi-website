@@ -4,7 +4,7 @@ import ImageGallery from '../../components/ImageGallery';
 import { resolveManifestImages } from '../../utils/resolveManifestImages';
 import { altrePubblicazioniManifest } from '../../data/altrePubblicazioniManifest';
 
-const altrePubblicazioniModules = require.context('../../img/altre_publicazioni/', false, /\.(png|jpe?g|gif|svg|pdf)$/);
+const altrePubblicazioniModules = require.context('../../features/associazione/assets/altre-pubblicazioni/', false, /\.(png|jpe?g|gif|svg|pdf)$/);
 const activeFiles = resolveManifestImages(altrePubblicazioniModules, altrePubblicazioniManifest);
 
 const generalFiles = activeFiles.filter((file) => file.section !== 'tesiDiLaurea');

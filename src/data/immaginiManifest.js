@@ -1,5 +1,5 @@
 // Per mostrare un'immagine nella pagina Immagini:
-// 1. aggiungi il file in src/img_page/
+// 1. aggiungi il file in src/features/associazione/assets/immagini/
 // 2. aggiungi una riga qui sotto con lo stesso nome file e active: true
 //
 // { file: 'esempio.jpg', active: true, alt: 'Descrizione immagine' },

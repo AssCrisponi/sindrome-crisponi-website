@@ -1,5 +1,5 @@
 // Per mostrare un file nella pagina Altre Pubblicazioni (immagine o pdf):
-// 1. aggiungi il file in src/img/altre_publicazioni/
+// 1. aggiungi il file in src/features/associazione/assets/altre-pubblicazioni/
 // 2. aggiungi una riga qui sotto con lo stesso nome file e active: true
 // 3. se l'immagine e il pdf sono lo stesso articolo, danne lo stesso nome base
 //    (es. foo.jpg + foo.pdf) oppure collega esplicitamente con pdf: 'foo.pdf'

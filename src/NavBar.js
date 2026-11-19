@@ -2,7 +2,7 @@ import React from 'react';
 import './NavBar.css';
 import './components/button.css';
 import NavButton from './components/NavButton';
-import logo_scontornato from '../src/img/logo/logo_scontornato.png';
+import logo_scontornato from './components/layout/assets/logo_scontornato.png';
 import { useLanguage } from './i18n/LanguageContext';
 import { useNavigate } from 'react-router-dom';
 

@@ -4,7 +4,7 @@ import ImageGallery from '../../components/ImageGallery';
 import { resolveManifestImages } from '../../utils/resolveManifestImages';
 import { immaginiManifest } from '../../data/immaginiManifest';
 
-const imageModules = require.context('../../img_page/', false, /\.(png|jpe?g|gif|svg)$/);
+const imageModules = require.context('../../features/associazione/assets/immagini/', false, /\.(png|jpe?g|gif|svg)$/);
 const activeImages = resolveManifestImages(imageModules, immaginiManifest);
 
 const ImmaginiPage = () => {

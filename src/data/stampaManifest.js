@@ -1,5 +1,5 @@
 // Per mostrare un file nella pagina Stampa (immagine o pdf):
-// 1. aggiungi il file in src/img/stampa/
+// 1. aggiungi il file in src/features/associazione/assets/stampa/
 // 2. aggiungi una riga qui sotto con lo stesso nome file e active: true
 //
 // { file: 'esempio.jpg', active: true, alt: 'Descrizione' },

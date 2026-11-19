@@ -1,8 +1,8 @@
 import React from 'react';
 import { useLanguage } from '../../i18n/LanguageContext';
 import Article from '../../components/Article';
-import lauraCrisponiImage from '../../img_originals/laura_crisponi_irg_cnr_monserrato .JPG';
-import premioDonnaScienzaImage from '../../img_originals/premio_donna_scienza_2024_laura-crisponi.jpg';
+import lauraCrisponiImage from '../../features/sindrome/assets/laura_crisponi_irg_cnr_monserrato .JPG';
+import premioDonnaScienzaImage from '../../features/sindrome/assets/premio_donna_scienza_2024_laura-crisponi.jpg';
 import './lauraCrisponiPage.css';
 
 const LauraCrisponiPage = () => {

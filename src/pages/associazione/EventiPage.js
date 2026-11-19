@@ -4,9 +4,9 @@ import ImageGallery from '../../components/ImageGallery';
 import Lightbox from '../../components/Lightbox';
 import { resolveManifestImages } from '../../utils/resolveManifestImages';
 import { eventiManifest } from '../../data/eventiManifest';
-import eventiMainImage from '../../eventi_page/eventi_image_main.jpg';
+import eventiMainImage from '../../features/associazione/assets/eventi/eventi_image_main.jpg';
 
-const imageModules = require.context('../../eventi_page/', false, /\.(png|jpe?g|gif|svg)$/);
+const imageModules = require.context('../../features/associazione/assets/eventi/', false, /\.(png|jpe?g|gif|svg)$/);
 const activeImages = resolveManifestImages(imageModules, eventiManifest);
 
 const EventiPage = () => {

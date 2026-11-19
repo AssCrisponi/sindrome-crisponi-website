@@ -4,7 +4,7 @@ import ImageGallery from '../../components/ImageGallery';
 import { resolveManifestImages } from '../../utils/resolveManifestImages';
 import { stampaManifest } from '../../data/stampaManifest';
 
-const stampaModules = require.context('../../img/stampa/', false, /\.(png|jpe?g|gif|svg|pdf)$/);
+const stampaModules = require.context('../../features/associazione/assets/stampa/', false, /\.(png|jpe?g|gif|svg|pdf)$/);
 const activeFiles = resolveManifestImages(stampaModules, stampaManifest);
 
 const StampaPage = () => {

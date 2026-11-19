@@ -1,9 +1,9 @@
-import geneResearchImage from '../../img_originals/pr_realizzati_84000_2006_07.jpg';
-import assegnoRobertaPirasLauraImage from '../../img_originals/assegno_roberta_piras_laura.jpg';
-import domoticaPiscinaNemoImage from '../../img_originals/domotica_piscina_nemo_2009.jpeg';
-import macchinariCnrImage from '../../img_originals/machinari_cnr_2009.jpeg';
-import pediatriaDisabilitaMicrocitemicoImage from '../../img_originals/pediatria_disabilita_microcitemico_2010.jpeg';
-import indagineNeurofisiopatologicaImage from '../../img_originals/indagine_neurofisiopatologica_2008.jpeg';
+import geneResearchImage from '../../features/associazione/assets/progetti/pr_realizzati_84000_2006_07.jpg';
+import assegnoRobertaPirasLauraImage from '../../features/associazione/assets/progetti/assegno_roberta_piras_laura.jpg';
+import domoticaPiscinaNemoImage from '../../features/associazione/assets/progetti/domotica_piscina_nemo_2009.jpeg';
+import macchinariCnrImage from '../../features/associazione/assets/progetti/machinari_cnr_2009.jpeg';
+import pediatriaDisabilitaMicrocitemicoImage from '../../features/associazione/assets/progetti/pediatria_disabilita_microcitemico_2010.jpeg';
+import indagineNeurofisiopatologicaImage from '../../features/associazione/assets/progetti/indagine_neurofisiopatologica_2008.jpeg';
 
 export const progetti = {
   it: {
